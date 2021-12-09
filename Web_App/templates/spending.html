@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Adam Coulon
+    Final Project: Homepage 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Global Education</title>
+
+    <link rel="stylesheet" type="text/css" href="static\css\normalize.css">
+    <link rel="stylesheet" type="text/css" href="static\css\style.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+    <!-- Sidenav display -->
+    <script src="https://kit.fontawesome.com/bf37eaf948.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="head">
+        <h1>Global Educational Spending</h1>
+    </header>
+
+    <div>
+        <a href="http://127.0.0.1:5000"><span class="home">Home</span></a>
+    </div>
+
+    <nav id="mySidenav" class="sidenav">
+        <a class="closebtn">&times;</a>
+        <a href="http://127.0.0.1:5000/about_project">What is the project about?</a>
+        <a href="http://127.0.0.1:5000/dataset">Dataset</a>
+        <a href="http://127.0.0.1:5000/spending">Global Educational Spending</a>
+        <a href="http://127.0.0.1:5000/education_levels">Education Levels</a>
+        <a href="http://127.0.0.1:5000/education_future">Where is education going?</a>
+    </nav>
+    <div class="openbtn">
+        <i class="fas fa-bars fa-2x"></i>
+        <span class="menu-text">Menu</span>
+    </div>
+
+    <div class="all-over-bkg"></div>
+    <div class="timeseries">
+        <img src="/static/css/images/TimeSeries.PNG" class="timeseries">
+    </div>
+    <div class="about">
+        <p>In looking at the Global Educational spending over the last five years we see that it has been on an upward trend. By the year 2019 we see educational spending get to almost 8 billion dollars. This is almost a 40% increase from the year 2015.</p>
+    </div>
+    <div class="correlation">
+        <img src="/static/css/images/Correlation1.PNG" class="img3">
+        <img src="/static/css/images/Correlation2.PNG" class="img4">
+    </div>
+    <div class="about_correlation">
+        <p>In looking at the Linear Regression between % of people with a tertiary degree and total goverment spending per student we see a slight positive correlation. We have a coefficient of determination equaling 0.19, an intercept of 2148, and a slope of 387. Again, there is a slightly positive correlation telling us that as global education spending continues to increase we can expect to see % of tertiary education to increase as well.</p>
+    </div>
+
+    <script src="static/css/js/nav.js"></script>
+</body> 
+</html>
